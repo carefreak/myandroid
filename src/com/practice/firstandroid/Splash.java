@@ -11,7 +11,7 @@ public class Splash extends MainActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(lol);
 		setContentView(R.layout.splash);
-		ourSong = MediaPlayer.create(Splash.this,R.raw.jets);
+		ourSong = MediaPlayer.create(Splash.this,R.raw.splash);
 		ourSong.start();
 		Thread timer = new Thread(){
 			public void run(){
